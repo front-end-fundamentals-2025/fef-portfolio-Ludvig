@@ -10,3 +10,29 @@ a {
 img {
   width: 30%;
 }
+
+.description {
+  color: darkgray;
+}
+
+.mainNav {
+  color: crimson;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 440px;
+  margin: 5px;
+}
+
+textarea {
+  resize: none;
+}
