@@ -36,3 +36,26 @@ form {
 textarea {
   resize: none;
 }
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.image-left {
+  width: 250%;
+}
+
+.text-right {
+  font-size: 30px;
+}
+
+.paragraph {
+  width: 600px;
+}
+
+* {
+  font-family: "Playfair Display", serif;
+}
