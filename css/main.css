@@ -44,6 +44,10 @@ textarea {
   column-gap: 5px;
 }
 
+.projectList {
+  display: grid;
+}
+
 .image-left {
   width: 250%;
 }
@@ -58,4 +62,23 @@ textarea {
 
 * {
   font-family: "Playfair Display", serif;
+}
+
+.showcase-container {
+  place-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+}
+
+.showcase-images {
+  height: 200px;
+  width: 200px;
+}
+
+.showcase-text {
+  text-align: center;
+}
+
+.page-title {
+  text-align: center;
 }
