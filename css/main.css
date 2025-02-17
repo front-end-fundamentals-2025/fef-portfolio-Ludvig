@@ -1,3 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
+
+#logo {
+  font-weight: 600;
+  font-size: larger;
+  border: 2px solid black;
+  display: inline;
+  padding: 5px;
+}
+
 ul {
   list-style: none;
   padding-left: 0px;
@@ -58,10 +73,6 @@ textarea {
 
 .paragraph {
   width: 600px;
-}
-
-* {
-  font-family: "Playfair Display", serif;
 }
 
 .showcase-container {
