@@ -6,16 +6,40 @@
 }
 
 #logo {
-  font-weight: 600;
-  font-size: larger;
+  font-weight: 700;
+  font-size: 2rem;
   border: 2px solid black;
-  display: inline;
-  padding: 5px;
+  padding: 8px 15px;
+
+  display: block;
+  text-align: center;
+  width: fit-content;
+  margin: 20px auto;
 }
 
-ul {
+.navbar ul {
+  text-align: center;
   list-style: none;
-  padding-left: 0px;
+  padding: 0px;
+  margin: 0px;
+  background-color: black;
+  overflow: hidden;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  color: gray;
+}
+
+.navbar li {
+  float: left;
 }
 
 a {
@@ -28,16 +52,6 @@ img {
 
 .description {
   color: darkgray;
-}
-
-.mainNav {
-  color: crimson;
-}
-
-li {
-  display: inline-block;
-  margin-right: 20px;
-  text-decoration: underline;
 }
 
 form {
