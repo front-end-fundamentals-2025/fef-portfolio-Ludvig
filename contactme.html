@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Ludvig</title>
     <link rel="stylesheet" href="css/main.css" />
+
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <header>
@@ -26,11 +28,11 @@
 
     <main>
       <form action="">
-        <h1 class="page-title">Contact Me</h1>
-        <input type="text" placeholder="Full Name" />
+        <h1 id="contactHeading">Contact Me</h1>
+        <input type="text" placeholder="Full Name" id="input-name" />
         <input type="text" placeholder="E-mail" />
         <textarea rows="5" placeholder="Message"></textarea>
-        <input type="submit" value="Submit" />
+        <button id="submit-button">Submit</button>
       </form>
     </main>
   </body>
